@@ -3,16 +3,78 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <title>Contatti</title>
-
         <meta name="description" content="contatti dello straccio">
         <meta name="author" content="Ismail Perta">
+        <style>
+            body {
+                background-color: #a7d9f7;
+                margin: 0;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .header {
+                background-color: #347c9e;
+                color: white;
+                padding: 25px 20px;
+                text-align: center;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            }
+            .header h1 {
+                margin: 0;
+                font-size: 2.5em;
+            }
+            nav {
+                background-color: #2a6381;
+                padding: 10px;
+                text-align: center;
+            }
+            nav a {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+                font-size: 1.1em;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            .content {
+                max-width: 700px;
+                margin: 30px auto;
+                background: rgba(255, 255, 255, 0.9);
+                border-radius: 8px;
+                padding: 30px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            .footer {
+                background-color: #347c9e;
+                color: white;
+                text-align: center;
+                padding: 15px 20px;
+                margin-top: 30px;
+                box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+            }
+        </style>
     </head>
     <body>
-        <h1>CONTATTI</h1>
-        <p>Numero: 3441611408</p>
-        <p>Email: lostraccio@gmail.com</p>
-        <p>Proprieta: Valore</p>
+        <div class="header">
+            <h1>CONTATTI</h1>
+        </div>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about-us.html">Chi Siamo</a>
+            <a href="news.html">News</a>
+            <a href="Contatti.html" style="font-weight: bold;">Contatti</a>
+        </nav>
+
+        <div class="content">
+            <h2>Hai domande? Contattaci!</h2>
+            <p><strong>Numero:</strong> 3441611408</p>
+            <p><strong>Email:</strong> lostraccio@gmail.com</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Lo Straccio. Tutti i diritti riservati.</p>
+        </div>
     </body>
 </html>
